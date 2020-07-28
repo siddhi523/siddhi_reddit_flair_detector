@@ -1,0 +1,1 @@
+web: gunicorn siddhi_reddit_flair_detector.wsgi --log-file -
