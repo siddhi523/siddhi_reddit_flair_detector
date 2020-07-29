@@ -42,7 +42,7 @@ def clean_text(s):
     return s
 
 
-reddit = praw.Reddit(client_id='anw_EpVABeFTzg', client_secret='CuEWY3Fmt1CIE1lrI12ypbfjGrc', user_agent='flair_detector', username='dev_sid', password='hitechcamp')
+reddit = praw.Reddit(client_id='#', client_secret='#', user_agent='#', username='#', password='#')
 subreddit = reddit.subreddit('india')
 flairs = ["AskIndia", "Non-Political", "[R]eddiquette", "Scheduled", "Photography", "Science/Technology", "Politics", "Business/Finance", "Policy/Economy", "Sports", "Food", "AMA"]
 topics_dict = {"author":[],"body":[], "comment":[], "flair":[], "id":[], "score":[], "title":[], "url":[], "combined_features":[]}
