@@ -23,7 +23,7 @@ def clean_text(s):
         s = f(s)
     return s
 
-reddit = praw.Reddit(client_id='anw_EpVABeFTzg', client_secret='CuEWY3Fmt1CIE1lrI12ypbfjGrc', user_agent='flair_detector', username='dev_sid', password='hitechcamp')
+reddit = praw.Reddit(client_id='#', client_secret='#', user_agent='#', username='#', password='#')
 loaded_model = joblib.load('main/finalized_model.sav')
 
 def detect_flair(url,loaded_model):
